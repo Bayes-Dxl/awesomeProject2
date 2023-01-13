@@ -6,7 +6,7 @@ import (
 	"text/scanner"
 )
 
-func main00() {
+func main01() {
 	const src = `
 // This is scanned code.
 if a > 10 {

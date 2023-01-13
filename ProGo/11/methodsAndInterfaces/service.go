@@ -1,10 +1,20 @@
 package main
 
+// Service /*
+type Service struct {
+	description    string
+	durationMonths int
+	monthlyFee     float64
+	features       []string
+}
+
+/*  1
 type Service struct {
 	description    string
 	durationMonths int
 	monthlyFee     float64
 }
+*/
 
 func (s Service) getName() string {
 	return s.description
