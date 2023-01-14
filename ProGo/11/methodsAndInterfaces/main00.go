@@ -58,7 +58,7 @@ func main00() {
 	data := []interface{}{
 		expense,
 		Product{"Lifejacket", "Watersports", 48.95},
-		Service{"Boat Cover", 12, 89.50, []string{}},
+		//Service{"Boat Cover", 12, 89.50, []string{}},
 		Person{"Alice", "London"},
 		&Person{"Bob", "New York"},
 		"This is a string",
