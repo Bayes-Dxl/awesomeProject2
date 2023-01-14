@@ -5,7 +5,7 @@ type Service struct {
 	description    string
 	durationMonths int
 	monthlyFee     float64
-	features       []string
+	//features       []string
 }
 
 /*  1
