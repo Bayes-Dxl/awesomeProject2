@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func main01() {
 	// Comma-separated list; last entry is empty.
 	const input = "1,2,3,4,"
 	scanner := bufio.NewScanner(strings.NewReader(input))
